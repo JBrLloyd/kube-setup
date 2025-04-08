@@ -1,5 +1,5 @@
 # Start minikube using docker
-minikube start --driver=docker --memory 2G
+minikube start --driver=docker --memory 4G
 
 minikube addons enable metrics-server
 minikube addons enable dashboard
